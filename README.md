@@ -5,8 +5,12 @@
 Conversation answer selection aims to select an answer from candidate answers to satisfy the users' information need. 
 
 ## Model
-
-![](./img/Method.png)
+<table>
+<tr>
+<td bgcolor=white>
+<img  src="./img/Method.png"/></td>
+</table>
+</tr>
 
 Architecture of our proposed intent-calibrated self-training (ICAST) framework. The dashed and solid line represent the workflow of teacher model and student model. The blue and green solid line represent intent-aware and context-aware workflow, respectively. The intent-calibrated pseudo labeling module estimates intent confidence gain to select samples with high-quality intent labels, and calibrates the answer labels by incorporating selected intent labels as an extra input for answer selection.
 

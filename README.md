@@ -5,7 +5,7 @@
 The task of answer selection is to select an answer from candidate answers to satisfy the users' information needs. 
 
 ## Model
-![](./img/Method.png)
+<img src=./img/Method.png width=50% />
 
 Architecture of our proposed intent-calibrated self-training (ICAST) framework. The dashed and solid line represent the workflow of teacher model and student model, respectively. The blue and green solid line represent intent-aware and context-aware workflow, respectively. The intent-calibrated pseudo labeling module estimates intent confidence gain to select samples with high-quality intent labels, and calibrates the answer labels by incorporating selected intent labels as an extra input for answer selection.
 
